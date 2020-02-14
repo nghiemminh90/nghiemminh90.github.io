@@ -1,0 +1,420 @@
+html {font-family:"Lucida Sans", sans-serif;}
+
+body {
+    margin:0;
+    }
+
+.row::after {
+    clear:both;
+}
+
+
+
+
+/*MEDIA QUERY*/
+
+
+@media (max-width: 768px) {
+img#img2 {
+    height:500px;
+}
+
+ #img_inside1 {position:absolute;
+        top: 72%;
+        left: 20%;
+    border-radius:50%;
+        width:60px;
+        height:60px;
+    }
+
+    #img_inside2 {position:absolute;
+        top: 53%;
+        left: 20%;
+    border-radius:50%;
+        width:60px;
+        height:60px;
+    }
+
+    #text_inside {
+        color:white;
+        position:absolute;
+        left: 40%;
+        top: 43%;
+        font-size:20px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+/*#img_inside,#text_inside {
+    display:none;
+}*/
+
+#img2 {
+    height:250px;
+}
+
+ #img_inside1 {position:absolute;
+        top: 90%;
+        left: 8%;
+    border-radius:50%;
+        transform:translate(-50%);
+    }
+
+    #img_inside2 {position:absolute;
+        top: 80%;
+        left: 8%;
+    border-radius:50%;
+        transform:translate(-50%);
+    }
+
+    #text_inside {
+        color:white;
+        position:absolute;
+       /* left:750px;
+        top:95px;*/
+        left:13%;
+        top:74%;
+     
+        font-size:14px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+.col-lg-6 {
+    padding:0 !important;
+}
+
+
+    #education .column2 img {width:100%;
+        height:480px;
+    }
+
+    .column3 > p {
+    font-size:1.3em;
+    }
+
+    #news img {
+        height:220px !important;
+    }
+
+
+    #img_inside1 {position:absolute;
+        top: 226px;
+        left: 50%;
+    border-radius:50%;
+        transform:translate(-50%);
+    }
+
+    #img_inside2 {position:absolute;
+        top: 138px;
+        left: 50%;
+    border-radius:50%;
+        transform:translate(-50%);
+    }
+
+    #text_inside {
+        color:white;
+        position:absolute;
+       /* left:750px;
+        top:95px;*/
+        left:53%;
+        top:95px;
+     
+        font-size:14px;
+    }
+
+    #contact_button button {
+        margin-left:80%;
+    }
+}    
+/*EDUCATION*/
+
+
+
+
+/*HEADER*/
+header {
+    background-color: #0032bfeb;
+    color:white;
+}
+
+header a {
+    color:white !important;
+}
+
+header .active a {
+    color:orange !important;
+}
+
+/*BANNER*/
+#banner img {
+    width:100%;
+    margin-bottom:-5px;
+}
+
+#main_content {
+    margin:20px 0 0;
+}
+
+
+/*GACH NGANG DE MUC*/
+#home_page .gachngang {
+    border-bottom:5px solid #0032bfeb;
+    width:30px;
+    float:left;
+    margin:10px 10px 0 0;
+
+}
+
+#home_page .gachngang2 {
+    border-bottom:5px solid white;
+    width:30px;
+    float:left;
+    margin-top:21px;
+    margin-right:10px;
+}
+
+/*ABOUT*/
+#about img {max-width: 100%;
+height:auto;}
+
+
+/*EDUCATION*/
+#education .column2 img {width:100%;
+}
+
+#education {
+    position:relative;
+    }
+
+/*NEWS*/
+
+
+#news img {
+    width:100%;
+    height:auto;
+    
+}
+
+#news a {
+    text-decoration: none;
+    color:black;
+}
+
+#news .column3 {
+    border:1px solid #ccc;
+}
+
+/*CONTACT*/
+#contact img {
+    max-width: 100%;
+    height:auto;
+}
+
+#contact textarea {
+    width: 100%;
+}
+
+#contact_button {
+    clear:both;
+    text-align: center;
+}
+
+#contact_button button {
+width:40%;
+background-color: #ffc113;
+padding:12px;
+color:white;
+font-size:15px;
+border-radius:5px;
+}
+
+#image13 {
+    float:left;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    color:white;
+    background-color: #000000eb;
+    font-size:0.7em;
+}
+
+.footer_column a {text-decoration: none;}
+.footer_column a:link {color:white;}
+.footer_column a:visited {color:white;}
+
+
+#email_enter {
+    background-color:#000000eb;
+    width:88%;
+}
+
+#submit2 {
+    min-width:10%;
+}
+
+#footer_bottom {
+    text-align: center;
+    border-top:1px solid white;
+    
+}
+
+ul.fa-ul {
+    list-style-type: none;
+    margin-left: 1.5em;
+    padding-left: 0;
+}
+
+#footer_bottom p {
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+    }
+
+#footer_top {
+padding:30px 0 15px 0;
+}
+
+
+
+/********ABOUT PAGE *******/
+#about_page .about_title {
+    text-align:center;
+    
+}
+
+#about_page .gachngang {
+    border-bottom:5px solid #0032bfeb;
+    width:50px;
+    display:block;
+    margin:auto;
+}
+
+#about_page .thumbnail_caption {
+    width:202px;
+    text-align:center;
+}
+
+#about_page .thumbnail_caption p:first-child {
+    font-weight:600;
+    font-size:1.2rem;
+}
+
+#about_page div.col-md-10 a {
+    color:orange;
+}
+
+
+/********BUSINESS PAGE *******/
+#business_page .business_title {
+    text-align:center;
+}
+
+#business_page .gachngang {
+    border-bottom:5px solid #0032bfeb;
+    width:50px;
+    display:block;
+    margin:auto;
+}
+
+
+/********CONTACT PAGE *******/
+#contact_page .contact_title {
+    text-align:center;
+}
+
+#contact_page .gachngang {
+    border-bottom:5px solid #0032bfeb;
+    width:50px;
+    display:block;
+    margin:auto;
+}
+
+#contact_page .form-control {
+    width:100%;
+}
+
+#contact_page b.form_title {
+    width:125px;
+    font-size:13px;
+}
+
+
+#contact_page img {
+    width:100%;
+}
+
+#contact_page .btn {
+    color:white;
+}
+
+@media (max-width:768px) {
+    #contact_page .btn {
+        width:50%;
+    }
+
+    #contact_page .dot {
+        display:none;
+    }
+}
+
+/********NEWS PAGE *******/
+#news_page .column3 {
+    width:47%;
+    float:left;
+
+    border:1px solid #ccc;
+    margin:20px 20px 15px 0;
+
+}
+
+#news_page .news_post {
+    background-color:#0032bfeb;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:5px;
+    color:white;
+}
+
+#news_page .news_post_content {
+    /*width:100%;*/
+    padding:15px;
+    background-color:#cccccc38;
+    height:160px;
+    border-top:1px solid #ccc;
+}
+
+#news_page .news_post_content img {
+    width:100%;
+    height:130px;
+
+}
+
+#news_page .content_column1 {
+float:left;
+width:40%;
+}
+
+
+#news_page .content_column2 {
+float:left;
+width:55%;
+text-align:left;
+margin-left:10px;
+
+}
+
+#news_page .column3 > p {
+    font-size:23px;
+}
+
+
+
+
+}
