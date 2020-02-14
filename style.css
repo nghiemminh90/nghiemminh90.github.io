@@ -43,6 +43,11 @@ img#img2 {
         font-size:20px;
     }
 
+    #submit2 {
+        left: 82%;
+    }
+
+
 }
 
 @media (min-width:768px) and (max-width:992px) {
@@ -77,6 +82,11 @@ img#img2 {
         top:74%;
      
         font-size:14px;
+    }
+
+
+    #submit2 {
+        left: 88%;
     }
 
 }
@@ -129,6 +139,11 @@ img#img2 {
     #contact_button button {
         margin-left:80%;
     }
+
+    #submit2 {
+        left: 72%;
+    }
+
 }    
 /*EDUCATION*/
 
@@ -243,8 +258,8 @@ border-radius:5px;
 footer {
     color:white;
     background-color: #000000eb;
-    font-size:0.7em;
-}
+    font-size:1rem;
+    }
 
 .footer_column a {text-decoration: none;}
 .footer_column a:link {color:white;}
@@ -253,11 +268,14 @@ footer {
 
 #email_enter {
     background-color:#000000eb;
-    width:88%;
+    width:100%;
+    border-radius:5px;
+    position:relative;
 }
 
 #submit2 {
     min-width:10%;
+    position:absolute;
 }
 
 #footer_bottom {
@@ -279,6 +297,7 @@ ul.fa-ul {
 
 #footer_top {
 padding:30px 0 15px 0;
+width:90%;
 }
 
 
@@ -417,4 +436,3 @@ margin-left:10px;
 
 
 
-}
